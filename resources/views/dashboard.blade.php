@@ -13,7 +13,7 @@
                         {{ __('Received Applications!') }}
                         <!-- post card -->
                         <div>
-                            @foreach ($posts as $post)
+                            
                                 <div
                                     class="flex bg-white shadow-lg rounded-lg mx-4 md:mx-auto my-56 max-w-md md:max-w-2xl ">
                                     <!--horizantil margin is just for display-->
@@ -42,7 +42,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            @endforeach
+                           
                         </div>
 
 
